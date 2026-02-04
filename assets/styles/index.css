@@ -144,3 +144,22 @@ nav>div>h1{
     color: var(--secondary-color);
     margin-top: 12px;
 }
+#contactSection{
+     padding-left: var(--padding-horizontal);
+        padding-right: var(--padding-horizontal);
+        height: 60vh;
+
+
+}
+#contactSection>form{
+    padding: 24px;
+    background-color: var(--secondary-color);
+    border-radius: 30px;
+    width: 60vw;
+}
+#contactSection>form>div{
+    margin-top: 18px;
+}
+#contactSection>form>div>label{
+    
+}
