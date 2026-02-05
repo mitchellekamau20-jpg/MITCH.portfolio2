@@ -156,11 +156,114 @@ nav>div>h1{
     background-color: var(--secondary-color);
     border-radius: 30px;
     width: 60vw;
+    margin: auto;
 }
 #contactSection>form>div{
     margin-top: 18px;
+    padding-left: 12px;
+    padding-right: 12px;;
 }
 #contactSection>form>h2{
-    font-size: 16px
+    font-size: 48px;
+    text-align:center;
+    font-weight:100px;
+    margin-top: 30px;
+    margin-bottom: 3opx;
+    color: var(--primary-color);
+}
+
+#contactSection>form>div>div{
+    margin: 16px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+#contactSection>form>.usermessage{
+    margin-top: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+#contactSection>form>.usernameemail, .useragebirth{
+    display: flex;
+}
+#contactSection>form>.usernameemail,.useragebirthday>div>label{
+    font-weight: 100%;
+    color: var(--primary-color);
+}
+#contactSection>form>.usernameemail>div>input{
+    all: unset;
+    border-radius: 12px;
+    background-color: white;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 12px;
+    color: gray;
+     margin-top: 8px;
+   height: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+}
+#contactSection>form>.useragebirth>div>input{
+    all: unset;
+    border-radius: 12px;
+    background-color: white;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 12px;
+    color: gray;
+     margin-top: 8px;
+   height: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+#contactSection>form>div>textarea{
+    all: unset;
+    border-radius: 12px;
+    background-color: white;
+    width: 25vw
+    padding-left :16px;
+    padding-right: 16px;
+    font-size: 12px;
+    color: gray;
+     padding-top: 4px;
+     pading-bottom: 4px;
+}
+#contactSection>form>div>input{
+    all: unset;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 50px;
+    transition: 1s;
+    margin-top: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+
+}
+#contactSection>form>div>input:hover{
+    transition: 1s;
+    background-color: #AC7884;
+    color: var(--primary-color);
+    cursor: pointer;
+     all: unset;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 50px;
+    transition: 1s;
+    margin-top: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     text-align: center;
 }
