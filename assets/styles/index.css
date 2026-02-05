@@ -160,6 +160,7 @@ nav>div>h1{
 #contactSection>form>div{
     margin-top: 18px;
 }
-#contactSection>form>div>label{
-    
+#contactSection>form>h2{
+    font-size: 16px
+    text-align: center;
 }
