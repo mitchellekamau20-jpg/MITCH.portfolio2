@@ -185,7 +185,7 @@ nav>div>h1{
 #contactSection>form>.usernameemail, .useragebirth{
     display: flex;
 }
-#contactSection>form>.usernameemail,.useragebirthday>div>label{
+#contactSection>form>.usernameemail,.useragebirth>div>label{
     font-weight: 100%;
     color: var(--primary-color);
 }
@@ -201,6 +201,7 @@ nav>div>h1{
    height: 30px;
     padding-top: 4px;
     padding-bottom: 4px;
+    width: 300px
 
 }
 #contactSection>form>.useragebirth>div>input{
@@ -215,18 +216,19 @@ nav>div>h1{
    height: 30px;
     padding-top: 4px;
     padding-bottom: 4px;
+    width: 300px;
 }
 #contactSection>form>div>textarea{
     all: unset;
     border-radius: 12px;
     background-color: white;
-    width: 25vw
+    width: 25vw;
     padding-left :16px;
     padding-right: 16px;
     font-size: 12px;
     color: gray;
      padding-top: 4px;
-     pading-bottom: 4px;
+     padding-bottom: 4px;
 }
 #contactSection>form>div>input{
     all: unset;
@@ -247,23 +249,7 @@ nav>div>h1{
 
 }
 #contactSection>form>div>input:hover{
-    transition: 1s;
-    background-color: #AC7884;
-    color: var(--primary-color);
-    cursor: pointer;
-     all: unset;
-    background-color: var(--primary-color);
-    color: #fff;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    border-radius: 50px;
-    transition: 1s;
-    margin-top: 16px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    text-align: center;
+   background-color: #AC7884;
+    color: var(--secondary-color);
+    cursor: pointer; 
 }
